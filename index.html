@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaoke de Pip y Pop</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Bienvenido al Karaoke De Pip y Pop</h1>
+    <p>¡Diviértete cantando!</p>
+
+    <img src="https://th.bing.com/th/id/R.0f12e13b13958d9e6c1c19c283c85d92?rik=UPAnqr52jn8zhA&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Imagen de ejemplo" class="small-image">
+    
+    <form id="song_form">
+ 
+        <label for="song_name">Nombre de la cancion</label>
+        <br>
+        <input id="song_name" type="text">
+        <br>
+        <label for="song_artist">Nombre del artista</label>
+        <br>
+        <input id="song_artist" type="text">
+        <br>
+        <label for="song_url">Link de la cancion</label>
+        <br>
+        <input id="song_url" type="url">
+       
+        <br>
+        <button type="submit">Agregar cancion a la lista</button>
+ 
+    </form>  
+ 
+    <h3>Lista de reproduccion</h3>
+    <ul id="playlist"></ul>
+ 
+ 
+</body>
+    <script src="main.js"></script>
+</html>
+ 
