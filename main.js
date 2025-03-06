@@ -1,23 +1,20 @@
-// Conectar HTML con JS
+// Conectar html con JS
 const songform = document.getElementById('song_form');
 const playlist = document.getElementById('playlist');
  
-// Función pa agregar canciones
  
+
+// Función para agregar canciones
 function addsong(songname, songartist, songurl) {
     const listitem = document.createElement('li');
- 
     listitem.innerHTML = `
-    <strong>${songname}</strong> - ${songartist}
-    <a href="${songurl}">Play song</a>
-    <buttom class="delete-btn>Delete Song</buttom>
-   
- 
- 
-    playlist.appenChild(listitem)
+        <strong>${songname}</strong> - ${songartist}
+        <a href="${songurl}">Play song</a>
+        <button class="delete-btn">Delete Song</button>
     `;
+    play_list.appendChild(listitem); 
 }
- 
+
  
 // Obtener valores del formulario
  
