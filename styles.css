@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(141, 60, 226);
+}
+
+
+.small-image {
+    width: 200px; /* Ajusta el tamaño según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+h1 {
+   
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
+}
